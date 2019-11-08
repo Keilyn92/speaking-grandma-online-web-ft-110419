@@ -14,7 +14,7 @@ require 'pry'
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(speak)
-  if 'I LOVE YOU GRANDMA!'== speak 
+  if speak == speak 
    return  'I LOVE YOU TOO PUMPKIN!'
       #binding.pry
    elsif speak.upcase == speak
