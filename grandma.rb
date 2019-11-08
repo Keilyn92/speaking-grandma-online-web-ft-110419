@@ -15,10 +15,10 @@ require 'pry'
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(speak)
      
-  if speak == 'I LOVE YOU GRANDMA!'
-   return  'I LOVE YOU TOO PUMPKIN!'
+  if speak == 'I LOVE YOU GRANDMA!' #pumki speak i love you grandman
+   return  'I LOVE YOU TOO PUMPKIN!' #grandma reply pumpkin
       #binding.pry
-   elsif speak.upcase == speak
+   elsif speak.upcase == speak    #if pumkin speak loud 
       return  "NO, NOT SINCE 1938!"
      else
          
