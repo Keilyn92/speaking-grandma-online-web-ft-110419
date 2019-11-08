@@ -15,9 +15,9 @@ require 'pry'
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(speak)
   if 'I LOVE YOU GRANDMA!'== speak 
-  return 'I LOVE YOU TOO PUMPKIN!'
+   'I LOVE YOU TOO PUMPKIN!'
   elsif speak.upcase==speak
   binding.pry
-    end
+  
    end
 end
