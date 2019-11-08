@@ -18,9 +18,10 @@ def speak_to_grandma(speak)
    return  'I LOVE YOU TOO PUMPKIN!'
       #binding.pry
    elsif speak.upcase == speak
-      return  "HUH?! SPEAK UP, SONNY!"
+      return  "NO, NOT SINCE 1938!"
      else
-      return "NO, NOT SINCE 1938!"
+         
+      return "HUH?! SPEAK UP, SONNY!" 
       
    end
 end
